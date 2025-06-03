@@ -22,9 +22,9 @@ warnings.filterwarnings('ignore')
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-
 import os
 
+app = Flask(__name__)
 # Dosya yolunu dinamik olarak belirle
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 EXCEL_FILE_PATH = os.path.join(BASE_DIR, "steam_analiz.xlsx")
