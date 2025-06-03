@@ -571,3 +571,5 @@ limiter = Limiter(
 def analyze_data():
     # Mevcut kodunuz...
     pass
+
+limiter.init_app(app)
