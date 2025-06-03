@@ -1,11 +1,12 @@
-matplotlib.use('Agg') 
+
 from flask import Flask, render_template, request, jsonify
 import matplotlib 
- 
+ matplotlib.use('Agg') 
+import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
+
 from collections import Counter
 import re
 from wordcloud import WordCloud
