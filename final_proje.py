@@ -564,12 +564,9 @@ limiter = Limiter(
     default_limits=["100 per day", "10 per minute"]
 )
 
-# Uygulamaya sonradan bağlanır
-limiter.init_app(app)
-
 
 # Önemli route'lara rate limit ekleyin
-@app.route('/analyze_data')
+@app.route('/')
 @limiter.limit("5 per minute")  # Dakikada 5 analiz
 def analyze_data():
     # Mevcut kodunuz...
