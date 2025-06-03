@@ -1,0 +1,55 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    background: url('/static/background.svg');
+    background-size: cover;
+    color: #4a154b;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #d81b60;
+}
+
+.chart-block {
+    margin: 2rem 0;
+    padding: 1rem;
+    background: #ffe6f0;
+    border-radius: 12px;
+}
+
+.wordcloud {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #d81b60;
+}
+
+input[type="text"] {
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    border: 1px solid #d81b60;
+}
+
+button {
+    padding: 0.6rem 1.2rem;
+    background: #d81b60;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: 1rem;
+    cursor: pointer;
+}
