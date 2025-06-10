@@ -6,7 +6,6 @@ import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 import pandas as pd
 import numpy as np
-
 from collections import Counter
 import re
 from wordcloud import WordCloud
