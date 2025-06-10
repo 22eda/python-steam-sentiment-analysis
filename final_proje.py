@@ -1,7 +1,7 @@
 
 from flask import Flask, render_template, request, jsonify
 import matplotlib 
- matplotlib.use('Agg') 
+matplotlib.use('Agg') 
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 import pandas as pd
